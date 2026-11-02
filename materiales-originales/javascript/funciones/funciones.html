@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de acceso</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Control de acceso a la discoteca</h1>
+
+    <img src="discoteca.png" alt="Discoteca">
+
+    <p>Introduce tu edad para comprobar si puedes entrar.</p>
+
+    <label for="edad">¿Cuántos años tienes?</label>
+    <input type="number" id="edad" min="0">
+
+    <button onclick="comprobarEdad()">
+        Comprobar acceso
+    </button>
+
+    <p id="resultado"></p>
+
+</body>
+</html>

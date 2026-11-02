@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanzar el dado</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+</head>
+<body>
+    <h1>Lanzar el dado</h1>
+    <img id="dado" src="dado.png" alt="Dado" width="100" height="100">
+    <p>Tira el dado para ver qué número sale.</p>
+    <p>Ganarás si consigues un 6</p>
+    <p id="resultado">Aquí aparecerá el resultado del lanzamiento.</p>
+    <p id="historial">Historial de resultados: </p>   
+
+    <button onclick="lanzarDado()">Lanzar dado</button>
+    <button onclick="actualizarHistorial(lanzarDado())">Actualizar historial</button>
+    </body>
+    
+</html>

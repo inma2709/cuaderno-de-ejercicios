@@ -1,0 +1,240 @@
+
+/* =====================================
+   MI RETO DE AHORRO
+   CSS sencillo para portfolio
+===================================== */
+
+:root {
+  --primario: #2563eb;
+  --fondo: #f1f5f9;
+  --blanco: #ffffff;
+  --texto: #263238;
+  --gris: #64748b;
+  --borde: #e2e8f0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 30px 15px;
+  font-family: Arial, sans-serif;
+  background-color: var(--fondo);
+  color: var(--texto);
+  line-height: 1.6;
+}
+
+.contenedor {
+  max-width: 760px;
+  margin: auto;
+}
+
+/* CABECERA */
+
+.cabecera {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.etiqueta {
+  display: inline-block;
+  background-color: #fef3c7;
+  color: #92400e;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 15px 0 10px;
+}
+
+.cabecera p {
+  color: var(--gris);
+}
+
+/* TARJETAS */
+
+.tarjeta {
+  background-color: var(--blanco);
+  padding: 25px;
+  margin-bottom: 20px;
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+/* FORMULARIO */
+
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: 2px solid var(--primario);
+  outline-offset: 2px;
+}
+
+button {
+  grid-column: 1 / -1;
+  padding: 14px;
+  background-color: var(--primario);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+button:focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 3px;
+}
+
+/* RESULTADOS */
+
+.mensaje {
+  background-color: #eff6ff;
+  padding: 15px;
+  border-radius: 8px;
+  color: #1e40af;
+  font-weight: bold;
+}
+
+.resumen {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.dato {
+  background-color: var(--fondo);
+  padding: 18px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.dato span {
+  display: block;
+  color: var(--gris);
+  font-size: 13px;
+}
+
+.dato strong {
+  display: block;
+  font-size: 28px;
+  color: var(--primario);
+}
+
+/* HISTORIAL */
+
+.descripcion {
+  color: var(--gris);
+  font-size: 14px;
+}
+
+.historial {
+  background-color: #0f172a;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+/* SECCIÓN SOBRE EL PROYECTO */
+
+.sobre-proyecto {
+  text-align: center;
+  background-color: #eff6ff;
+}
+
+.sobre-proyecto h2 {
+  color: var(--primario);
+}
+
+.descripcion-proyecto {
+  max-width: 620px;
+  margin: 0 auto 15px;
+  font-size: 15px;
+}
+
+.tecnologias {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.tecnologias span {
+  background-color: var(--blanco);
+  color: var(--primario);
+  border: 1px solid #bfdbfe;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* PIE */
+
+footer {
+  text-align: center;
+  color: var(--gris);
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+  .formulario,
+  .resumen {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .tarjeta {
+    padding: 20px;
+  }
+}

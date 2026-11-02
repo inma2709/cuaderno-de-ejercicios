@@ -1,0 +1,46 @@
+body {
+  background-color: #f3f0e6;
+  color: #1e2a20;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 24px;
+  text-align: center;
+}
+.juego {
+  background-color: #0d4a32;
+  border: 4px solid #d7b85b;
+  border-radius: 16px;
+  color: white;
+  margin: 0 auto;
+  max-width: 620px;
+  padding: 24px;
+}
+.puntuacion,
+.contador,
+#resultado {
+  background-color: #ffffff;
+  border-radius: 8px;
+  color: #1e2a20;
+  margin: 12px 0;
+  padding: 12px;
+}
+button {
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  margin: 6px;
+  padding: 10px 14px;
+}
+.pedir {
+  background-color: #f4d35e;
+}
+.plantar {
+  background-color: #f39c6b;
+}
+.nueva {
+  background-color: #b9e3c6;
+}
+button:hover {
+  background-color: #ffffff;
+}

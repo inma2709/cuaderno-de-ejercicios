@@ -1,0 +1,21 @@
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#ficha-curso {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.horarios { padding: 1rem; background: #f0f0e9; }
+.horarios--ocultos { display: none; }
+
+

@@ -1,0 +1,65 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Título */
+h1 {
+    color: #2456a6;
+    text-align: center;
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Campos de entrada */
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Botón */
+button {
+    background-color: #2456a6;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Botón al pasar el ratón */
+button:hover {
+    background-color: #173c78;
+}
+
+/* Resultados */
+h2 {
+    margin-top: 30px;
+    color: #2456a6;
+}
+
+#resultado,
+#mensaje {
+    font-weight: bold;
+    color: #2456a6;
+}

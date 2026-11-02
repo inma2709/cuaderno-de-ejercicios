@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #f7df1e;
+}
+
+main {
+    width: min(90%, 500px);
+    padding: 32px;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .14);
+}
+
+.intro {
+    line-height: 1.5;
+}
+
+section {
+    margin: 24px 0;
+    padding: 16px;
+    text-align: left;
+    background: #fff8d8;
+    border-radius: 8px;
+}
+
+/* Estilos de la parte 3: formulario con inputs.
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: left;
+}
+
+input,
+button {
+    padding: 10px;
+    font: inherit;
+    border-radius: 6px;
+}
+
+input {
+    border: 1px solid #aaa;
+}
+
+button {
+    margin-top: 8px;
+    color: #fff;
+    cursor: pointer;
+    background: #0056b3;
+    border: 0;
+}
+
+#resultado-formulario {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+*/
+
+#mensaje {
+    font-size: 1.2rem;
+    margin: 24px 0;
+    font-weight: bold;
+}
+
+.volver {
+    color: #0056b3;
+    display: inline-block;
+    margin-bottom: 12px;
+}

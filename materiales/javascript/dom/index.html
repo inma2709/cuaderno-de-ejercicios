@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajando el DOM</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <button type="button" onclick="mostrarCurso('html')">Curso HTML</button>
+<button type="button" onclick="mostrarCurso('javascript')">Curso JavaScript</button>
+<section id="ficha-curso"></section>
+
+<button type="button" onclick="alternarHorarios()">Ver horarios</button>
+<section id="horarios" class="horarios horarios--ocultos">
+  <h3>Horarios</h3>
+  <p>Lunes a viernes: 09:00–21:00</p>
+</section>
+
+<label for="nueva-tarea">Nueva tarea</label>
+<input id="nueva-tarea" type="text">
+<button type="button" onclick="anadirTarea()">Añadir tarea</button>
+<button type="button" onclick="eliminarUltimaTarea()">Eliminar última</button>
+<ul id="lista-tareas"></ul>
+
+</body>
+</html>
